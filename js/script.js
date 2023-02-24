@@ -1,8 +1,23 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
+    welcome();
 
-let przycisk = document.querySelector(".przycisk");
-let zdjecie = document.querySelector(".zdjecie");
+    const onRemovePictureClick = () => {
 
-przycisk.addEventListener("click", () => {
-    zdjecie.remove();
-});
+        const zdjecie = document.querySelector(".zdjecie");
+        zdjecie.remove();
+    }
+    
+
+
+    const init = () => {
+        let przycisk = document.querySelector(".przycisk");
+        przycisk.addEventListener("click", onRemovePictureClick)
+    }
+     init();
+}
+
+
+

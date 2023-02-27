@@ -1,9 +1,9 @@
-# Oskar Siry - Moja Strona
+# Oskar Siry - My page
 
 ## demo
 https://oskars99.github.io/homepage/
 
-## Opis
+## Description
 
-W projekcie znajdziemy kilka informacji o mojej osobie. 
-Jest to maja pierwsza praca więc nie ma tam zbyt wiele stylowania w CSS jak i samego JS :)
+The project contains some information about me.
+This is May's first homework so there is not much styling in CSS and JS :)
